@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get("/home", (req, res) => {
+router.get("/json", (req, res) => {
   res.json({
-    message: "hello home"
+    message: "Langkah Awal membangun aplikasi RESTAPI dengan Express"
   });
 });
 
